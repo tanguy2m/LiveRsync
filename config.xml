@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<Server>
+		<Name>NAS</Name>
+		<MAC>aa-aa-aa-aa-aa-aa</MAC>
+		<RsyncModule>backup</RsyncModule>
+	</Server>
+	<Dossiers> 
+		<Dossier> 
+			<Origine>D:\Test</Origine>
+			<Destination>Test</Destination>
+		</Dossier>		
+	</Dossiers>
+</Config>
