@@ -8,13 +8,14 @@ INSTALLATION GUIDE
 
 1. Copier le dossier LiveRsync sur la machine cliente.
 
-2. Cr�er un raccourci vers launch.vbs
-	D�placer ce raccourci dans le dossier 'D�marrage' du menu D�marrer en le renommant 'LiveRsyncv2'
+2. Créer un raccourci vers launch.vbs
+
+  Déplacer ce raccourci dans le dossier 'Démarrage' du menu Démarrer en le renommant 'LiveRsyncv2'
 	
-3. Configurer Powershell, ex�cuter en tant qu'admin:
+3. Configurer Powershell, exécuter en tant qu'admin:
 	
   `Set-ExecutionPolicy RemoteSigned`
 
-  `Enable-PSRemoting �Force`
+  `Enable-PSRemoting -Force`
 	
 4. Configurer LiveRsync via le fichier 'conf.xml'
